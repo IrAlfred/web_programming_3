@@ -1,0 +1,253 @@
+body
+{
+    font-family: 'Verdana', 'Comic Sans Ms', 'Arial', serif;
+    width: 90%;
+    margin:auto;
+}
+#baniere_img
+{
+    background-image: url('images/black.jpg');
+    /* height: 200px; */
+    padding-top : 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px white ;
+    background-size: cover;
+}
+nav ul
+{
+    background-color: rgba(21, 8, 1, 0.891);
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+nav ul li
+{
+    padding: 10px;
+}
+
+nav ul li:hover
+{
+    background-color: brown;
+}
+nav ul a
+{
+    text-decoration: none;
+    color: white;
+}
+#poster
+{
+    background-image: url('images/apprenant.jpg');
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background-size: cover;
+}
+.cards
+{
+    display: flex;
+}
+.card_img
+{
+    margin: 20px;
+    border: 1px #cecbcb solid;
+}
+
+.card_img p
+{
+    padding: 10px;
+}
+.card_img a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(21, 8, 1, 0.891);
+    color: white;
+    border-radius: 10px;
+}
+.card_img a:hover
+{
+    color:rgba(213, 82, 11, 0.891);
+    background-color:rgba(8, 4, 2, 0.891);
+}
+.card_img .link
+{
+    text-align: right;
+}
+.img_card1
+{
+    height: 200px;
+    background-image: url('images/22.jpg');
+}
+.img_card2
+{
+    height: 200px;
+    background-image: url('images/33.jpg');
+}
+.img_card3
+{
+    height: 200px;
+    background-image: url('images/44.jpg');
+}
+
+.jumbotron {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+    padding: 80px;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+  }
+  .jumbotron2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+    padding: 30px;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+  }
+  .tab_div
+  {
+    width: 80%;
+    margin: auto;
+  }
+  .table1
+  {
+    border-collapse: collapse;
+  }
+  .table1 td, .table1 th
+  {
+    border-top: 1px #7a7a7a solid;
+    border-bottom: 1px #7a7a7a solid;
+    padding: 10px;
+  }
+
+  .table1 th
+  {
+    background-color: black;
+    color: white;
+  }
+  .table1 .pair
+  {
+    background-color: #cecbcb;
+  }
+  .table2 th, .table2 td
+  {
+    border: 1px solid #ababab;
+    padding: 5px;
+  }
+
+.trois_card
+{
+    display: flex;
+    text-align: justify;
+}
+.trois_card p
+{
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 10px 2px 10px black;
+    border: 1px solid #eee;
+}
+
+#one{
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 30px;
+    text-align: justify;
+}
+nav .active
+{
+    background-color: brown;
+}
+
+footer #menu
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-top: 3px solid #ababab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2
+{
+    font-size: 1em;
+}
+
+#menu div
+{
+    margin: 20px;
+    padding: 20px;
+}
+
+footer a
+{
+    text-decoration: none;
+}
+footer a:hover
+{
+    color: white;
+    background-color: blue;
+    padding: 2px;
+    border-radius: 2px;
+}
+.calendar
+{
+    border-collapse: separate;
+}
+.calendar th, .calendar td
+{
+    border: 1px solid #ababab;
+    text-align: center;
+    padding: 10px;
+}
+#today
+{
+    background-color: brown;
+    color: white;
+}
+td p
+{
+    font-size: xx-small;
+    padding: 0px;
+    margin: 0px;
+}
+#independance
+{
+    background-color: rgb(167, 217, 114);
+}
+#div_form
+{
+    width: 60%;
+    margin: auto;
+}
+.input_group
+{
+    margin-top: 20px;
+}
+.form-ctrl
+{
+    width: 90%;
+    padding: 10px;
+}
+.btn
+{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+.jours
+{
+    background-color: antiquewhite;
+}
